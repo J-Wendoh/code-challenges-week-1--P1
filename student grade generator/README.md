@@ -1,11 +1,16 @@
                                             STUDENT GRADE GENERATOR              
     Date(2024/24/03)   
 By * Joanne Wendoh *     
-                                    
-        DESCRIPTION                
+
+
+
+
+        *DESCRIPTION*   
+
+
 This program allows the student marks to be graded after an exam ,CAT or any assesments that are used to calculate the student's overall grade by having the average grade of the total assesments.It follows the institution's grading system strictly and works as expected provided input is correct as per the grading system where the marks are only as low as 0 and as high as 100.
 
-    *The program propmts the user for the marks and outputs the grade according to the grading system.
+ *The program propmts the user for the marks and outputs the grade according to the grading system.
 
     THE INSTUTION GRADING SYSTEM IS AS FOLLOWS:
     "A"     -MARKS(79-100)
@@ -16,12 +21,14 @@ This program allows the student marks to be graded after an exam ,CAT or any ass
 
 Accepting human is to err the program also has an erro message when there is invalid input to propmt the user to check marks entry and do it again .It finally outputs the student's grade.
 
-        INSTALLATION 
+        *INSTALLATION *
+
+
 USE THE GIT LINK PROVIDED BELOW TO GIT CLONE SO AS TO BE ABLE TO DOWNLOAD THE DOCUMENTS  TO YOUR LOCAL ENVIRONMENT.
 ONL GIT AND A GIT ACCOUNT IS REQUIRED .
 
 
-LIVE LINK:
+LIVE LINK:https://github.com/J-Wendoh/code-challenges-week-1--P1/blob/master/Challeng-3/index.js
 
 Tech used:[JAVASCRIPT]
 
