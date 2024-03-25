@@ -45,6 +45,9 @@ function gradeGenerator()
     let result = (gradeGenerator());
     console.log(result);
     return(result)}
+<<<<<<< HEAD
 
     //end of code 
     
+=======
+>>>>>>> cc2966a66cb9c256288842eafcc058e79e550a99
