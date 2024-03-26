@@ -1,3 +1,4 @@
+const bSalary= prompt("Input Basic Salary")//prompts user for input
 //Gross salary refers to the money paid before any deductions are made including all the benefits and allowances
 function grossSalary(bSalary,benefits){
     return grossSalaryTotal=[bSalary + benefits]
@@ -95,7 +96,10 @@ function nhifDeductions(bSalary){
 
   }
 
-
+nhifDeductions(bSalary)
+tax(bSalary)
+benefits =[nhifDeduction+nssfdeductions]
+grossSalary(bSalary,benefits)
 
 // Net salary is your total take-home pay after any taxes and other employee benefits are deducted.
 
@@ -103,3 +107,4 @@ totalDeductions = [nhifDeduction+Payee+nssfdeductions]
   function netSalaryCalculation (grossSalaryTotal,totalDeductions)  {
     return netSalary=[grossSalaryTotal - totalDeductions]
   }
+  netSalaryCalculation (grossSalaryTotal,totalDeductions) 
