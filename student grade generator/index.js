@@ -1,3 +1,6 @@
+const marks = prompt("Input Student's Marks")//prompts user for input
+
+
 //This is the code structure of the program
 
 function generateGrade(marks)//marks are the student's marks that are input by the user prompted by the program
@@ -35,19 +38,13 @@ else
 
 function gradeGenerator() 
 {
-    let studentGrade = (generateGrade());
-    console.log("Input Student Marks");
+    let studentGrade = (generateGrade(marks));
 
     if (studentGrade = generateGrade(marks) ) {
     return (`The student's grade is: ${studentGrade}`);
-    }
+    }}
 
-    let result = (gradeGenerator());
-    console.log(result);
-    return(result)}
-<<<<<<< HEAD
 
-    //end of code 
-    
-=======
->>>>>>> cc2966a66cb9c256288842eafcc058e79e550a99
+
+    gradeGenerator()
+
